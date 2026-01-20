@@ -83,5 +83,5 @@ if __name__ == "__main__":
     schedule = Schedule(MAX_TIME)
     schedule.add_event(event_list[0])
     schedule.add_event(event_list[-1])
-    # schedule.add_event(event_list[1]) # Will cause an error for not enough time
+    # schedule.add_event(event_list[1]) # Will cause an error for not enough time 
     schedule.display_schedule()
